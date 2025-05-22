@@ -12,10 +12,9 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClassic = true
 pygmentOptions = "linenos=inline"
-#googleAnalytics = "XXX"
 enableRobotsTXT = true
 enableGitInfo = false
-ignoreLogs = ['warning-goldmark-raw-html']
+ignoreLogs = ["warning-goldmark-raw-html"]
 
 [Params]
 selfHosted = true
@@ -33,7 +32,7 @@ gcse = false
 Lastmod = false
 rss = true 
 pagination = "10"
-description="Your can add your website description here."
+description = "Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom"
 showPostImage = false
@@ -48,7 +47,6 @@ pagerSize = 6
     weight = 1
     title = "Lightbi"
 
-
 [Params.Author]
   name = "Bino Kochumol Varghese"
   website = "https://www.binovarghese.com/"
@@ -56,7 +54,7 @@ pagerSize = 6
   authorPostImage = "/img/author-post-img.jpg"
   facebook = "username"
   instagram = "username"
-  youtube = "user/username" # or channel/channelname
+  youtube = "user/username"
   twitter = "username"
   linkedin = "username"
   github = "username"
@@ -70,16 +68,6 @@ pagerSize = 6
   telegram = "username"
   mastodon = "url"
   slack = "username"
-  #bandcamp = "username"
-  #itchio = "username"
-  #vk = "username"
-  #500px = "username"
-  #kaggle = "username"
-  #weibo = "username"
-  #xing = "username"
-  #bitbucket = "username"
-  #soundcloud = "username"
-  # codepen = "username"
 
 [sitemap]
   changefreq = "monthly"
@@ -111,8 +99,3 @@ pagerSize = 6
     name = "About"
     url = "/about/"
     weight = 5
-
-
-
-
-
