@@ -48,7 +48,7 @@ Here are a few popular Hugo shortcodes and how to use them:
    {{/*< gist spf13 7896402 > */}}
    ```
    Rendered:
-   {{< gist spf13 7896402 >}}
+   <script src="https://gist.github.com/spf13/7896402.js"></script>
 
    This integrates GitHub Gists by taking the username and gist ID, perfect for adding code snippets from GitHub.
 
@@ -75,3 +75,5 @@ Using shortcodes in Hugo streamlines content creation and ensures consistency ac
 For more details, check out Hugo’s official [shortcode documentation](https://gohugo.io/content-management/shortcodes/).
 
 <!--Photo by Robert Katzki on Unsplash-->
+
+
