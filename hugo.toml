@@ -87,40 +87,28 @@ pagerSize = 6
   filename = "sitemap.xml"
 
 
-[[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
 
-[[menu.main]]
     name = "Notes"
     url = "/notes/"
+    weight = 2
 
-[[menu.main]]
     name = "Tags"
     url = "/tags/"
     weight = 3
 
 
-[[menu.main]]
     name = "Collections"
     url = "/collections/"
     weight = 4
 
-[[menu.main]]
     name = "About"
     url = "/about/"
     weight = 5
 
-[[menu.main]]
-    name = "Gist"
-    url = "{{< gist username gistID >}}"
-    weight = 6
 
-[[menu.main]]
-    name = "Gist Script"
-    url = "<script src=\"https://gist.github.com/username/gistID.js\"></script>"
-    weight = 7
 
 
 
