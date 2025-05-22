@@ -86,24 +86,28 @@ pagerSize = 6
   priority = 0.5
   filename = "sitemap.xml"
 
-
+[menu]
+  [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
 
+  [[menu.main]]
     name = "Notes"
     url = "/notes/"
     weight = 2
 
+  [[menu.main]]
     name = "Tags"
     url = "/tags/"
     weight = 3
 
-
+  [[menu.main]]
     name = "Collections"
     url = "/collections/"
     weight = 4
 
+  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 5

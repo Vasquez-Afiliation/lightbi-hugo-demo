@@ -2,10 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lightbi</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://lightbi-hugo-demo.onrender.com/categories/</link>
     <description>Recent content in Categories on Lightbi</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lightbi-hugo-demo.onrender.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Environmental-Impact</title>
+      <link>https://lightbi-hugo-demo.onrender.com/categories/environmental-impact/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://lightbi-hugo-demo.onrender.com/categories/environmental-impact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geothermal-Energy</title>
+      <link>https://lightbi-hugo-demo.onrender.com/categories/geothermal-energy/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://lightbi-hugo-demo.onrender.com/categories/geothermal-energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volcanic-Formation-and-Types</title>
+      <link>https://lightbi-hugo-demo.onrender.com/categories/volcanic-formation-and-types/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://lightbi-hugo-demo.onrender.com/categories/volcanic-formation-and-types/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volcano-Monitoring-and-Safety</title>
+      <link>https://lightbi-hugo-demo.onrender.com/categories/volcano-monitoring-and-safety/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lightbi-hugo-demo.onrender.com/categories/volcano-monitoring-and-safety/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

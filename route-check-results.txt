@@ -1,0 +1,49 @@
+Route check started at 05/22/2025 12:19:37
+
+Testing main navigation routes:
+✅ / - Status: 200
+❌ /notes/ - Error: Response status code does not indicate success: 404 (Not Found).
+✅ /tags/ - Status: 200
+❌ /collections/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /about/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /post/ - Error: Response status code does not indicate success: 404 (Not Found).
+
+Testing recent posts:
+❌ /post/2024-02-28-ashfall-and-volcanic-gases-navigating-the-health-risks/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /post/2024-02-28-carbon-dioxide-emissions-natures-clue-to-volcano-monitoring/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /post/2024-02-28-cerro-negro-nicaraguas-young-and-active-cinder-cone-volcano/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /post/2024-02-28-discovering-fernandina-the-galapagos-islands-shield-volcano-secret/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /post/2024-02-28-eruption-ahead-recognizing-the-warning-signs-of-a-volcano/ - Error: Response status code does not indicate success: 404 (Not Found).
+
+Testing categories:
+❌ /categories/environmental-impact/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /categories/geothermal-energy/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /categories/volcanic-formation-and-types/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /categories/volcano-monitoring-and-safety/ - Error: Response status code does not indicate success: 404 (Not Found).
+
+Testing tags:
+✅ /tags/blog/ - Status: 200
+❌ /tags/business/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /tags/entertainment/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /tags/featured/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /tags/football/ - Error: Response status code does not indicate success: 404 (Not Found).
+✅ /tags/hugo/ - Status: 200
+❌ /tags/lifestyle/ - Error: Response status code does not indicate success: 404 (Not Found).
+✅ /tags/markdown/ - Status: 200
+❌ /tags/marketing/ - Error: Response status code does not indicate success: 404 (Not Found).
+✅ /tags/netlify/ - Status: 200
+✅ /tags/newsletter/ - Status: 200
+❌ /tags/politics/ - Error: Response status code does not indicate success: 404 (Not Found).
+✅ /tags/shortcodes/ - Status: 200
+❌ /tags/sports/ - Error: Response status code does not indicate success: 404 (Not Found).
+✅ /tags/stoicism/ - Status: 200
+✅ /tags/syntax/ - Status: 200
+✅ /tags/tags/ - Status: 200
+❌ /tags/technology/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /tags/video/ - Error: Response status code does not indicate success: 404 (Not Found).
+❌ /tags/world/ - Error: Response status code does not indicate success: 404 (Not Found).
+
+Route Check Summary:
+Total Routes Checked: 35
+Successful Routes: 11
+Failed Routes: 24

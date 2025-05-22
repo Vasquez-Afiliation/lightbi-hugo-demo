@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: lightbi-hugo-site
+    env: static
+    buildCommand: hugo --minify
+    publishDir: public
+    staticPublishPath: ./public
+    envVars:
+      - key: HUGO_VERSION
+        value: 0.123.8
