@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Lightbi</title>
-    <link>https://lightbi-hugo-theme.netlify.app/tags/hugo/</link>
-    <description>Recent content in hugo on Lightbi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lightbi-hugo-theme.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <title>Hugo on Lightbi</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on Lightbi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to use this Hugo theme ?</title>
-      <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/use-this-theme/</link>
-      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/use-this-theme/</guid>
-      <description>Install Hugo and create a new site. See the Hugo documentation for details.&#xA;hugo new site &amp;lt;name of site&amp;gt; cd &amp;lt;name of site&amp;gt; git init git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo echo &amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.</description>
+      <title>Install Hugo in Windows</title>
+      <link>http://localhost:1313/en/post/2020/install-hugo/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/2020/install-hugo/</guid>
+      <description>&lt;p&gt;Hugo comes in three versions: Standard, Extended, and Extended/Deploy. The Standard edition covers core functionalities, while Extended adds advanced options, with Extended/Deploy** offering further deployment features.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setting-up-your-directories&#34;&gt;Setting Up Your Directories&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open File Explorer and create a folder, e.g., &lt;code&gt;C:\Hugo&lt;/code&gt;, and inside it, a &lt;code&gt;bin&lt;/code&gt; folder.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;installing-hugo&#34;&gt;Installing Hugo&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Download the latest Hugo executable from &lt;a href=&#34;https://github.com/gohugoio/hugo/releases/&#34;&gt;Hugo releases&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Build a Hugo Blog</title>
-      <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/build-hugo-blog/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/build-hugo-blog/</guid>
-      <description>Hugo? It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.</description>
+      <title>How to use Lightbi theme ?</title>
+      <link>http://localhost:1313/en/post/2020/use-this-theme/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/2020/use-this-theme/</guid>
+      <description>&lt;p&gt;In this post, we&amp;rsquo;ll cover how to install Hugo and set up your first website with the Lightbi theme. For detailed steps, refer to &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo’s quick-start guide&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Install Hugo&lt;/a&gt; - Make sure you install latest version of hugo.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;Install Git&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Create a New Hugo Site&lt;/strong&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;name of site&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;After completing the steps above, copy the contents of &lt;code&gt;exampleSite/contents&lt;/code&gt; into the &lt;code&gt;content&lt;/code&gt; folder of your website.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Rich Content</title>
-      <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/rich-content/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/rich-content/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</description>
+      <title>Features of Lightbi</title>
+      <link>http://localhost:1313/en/post/2020/features-of-lightbi/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/2020/features-of-lightbi/</guid>
+      <description>&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Three Main Content Sections:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Blog&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collections&lt;/strong&gt; (Newsletter)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built with a &lt;strong&gt;mobile-first approach&lt;/strong&gt; for seamless viewing on any device.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Card-Based Theme&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Flexible image placement options:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Image at the top of the card&lt;/li&gt;&#xA;&lt;li&gt;Image in the middle of the card&lt;/li&gt;&#xA;&lt;li&gt;Image at the bottom of the card&lt;/li&gt;&#xA;&lt;li&gt;No image option&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Menu Location Indicator&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Host in Netlify</title>
-      <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/netlify-conf/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/netlify-conf/</guid>
-      <description>You can host your static website wth zero cost in Netlify.&#xA;Add the below netlify.toml in the root folder.&#xA;[build]&#xD;publish = &amp;quot;public&amp;quot;&#xD;command = &amp;quot;hugo --gc --minify&amp;quot;&#xD;[context.production.environment]&#xD;HUGO_VERSION = &amp;quot;0.</description>
+      <title>Image Gallery Shortcode</title>
+      <link>http://localhost:1313/en/post/2020/image-gallery/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/2020/image-gallery/</guid>
+      <description>&lt;div class=&#34;card alert alert-primary&#34;&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;h5 class=&#34;card-title m-0&#34;&gt;&#xD;&#xA;            Experimental feature&#xD;&#xA;        &lt;/h5&gt;&#xD;&#xA;        &#xD;&#xA;&#xD;&#xA;        &lt;p class=&#34;card-text text-muted fs-6 mt-0&#34;&gt;  &#xD;&#xA;             &#xD;&#xA;            This feature is currently in experimental mode, so breaking changes may occur. Please use it carefully.&#xD;&#xA;            &#xD;&#xA;        &lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Here’s a custom Hugo shortcode that creates an image gallery in a masonry style using GLightbox, allowing you to specify a folder containing images. This approach will display images from a specified folder in a masonry layout, and each image will open in a lightbox when clicked.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hugo Shortcodes</title>
-      <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/shortcodes/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/shortcodes/</guid>
-      <description>Hugo is using markdown for content format, but there are times when Markdown falls short. Often we are forced to use the raw HTML, to overcome these limitations Hugo created shortcodes.</description>
+      <title>Hosting Your Hugo Site on Netlify</title>
+      <link>http://localhost:1313/en/post/2020/netlify-configuration/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/2020/netlify-configuration/</guid>
+      <description>&lt;p&gt;Hosting a Hugo site on Netlify is an effective solution for deploying static websites, combining Hugo’s speed with Netlify’s robust features like continuous deployment, a user-friendly dashboard, and advanced build settings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parameters in Lightbi</title>
+      <link>http://localhost:1313/en/post/2020/parameters/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/post/2020/parameters/</guid>
+      <description>&lt;p&gt;Below is a list of configurable parameters in the Lightbi theme, along with descriptions to help you customize your site effectively. You can be adjust the below parameters in your &lt;code&gt;hugo.toml&lt;/code&gt; file.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

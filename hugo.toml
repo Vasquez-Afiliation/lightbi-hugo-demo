@@ -1,6 +1,6 @@
 baseURL = "https://lightbi-hugo-theme.netlify.app/"
 DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 languageCode = "en"
 title = "Lightbi"
 theme = "lightbi-hugo"
@@ -47,7 +47,6 @@ pagerSize = 6
     LanguageName = "English"
     weight = 1
     title = "Lightbi"
-    contentDir = "content/en"
 
   [languages.ml]
     LanguageCode  = "ml"
