@@ -1,4 +1,4 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
+baseURL = "https://lightbi-hugo-demo.onrender.com"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 languageCode = "en"
@@ -19,7 +19,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [Params]
 selfHosted = true
-mainSections = ["post","posts"]
+mainSections = ["post"]
 dateFormat = "02 January 2006"
 comments = false
 readingTime = true
@@ -48,12 +48,6 @@ pagerSize = 6
     weight = 1
     title = "Lightbi"
 
-  [languages.ml]
-    LanguageCode  = "ml"
-    LanguageName = "Malayalam"
-    weight = 2
-    title = "Malayalam Site"
-    contentDir = "content/ml"
 
 [Params.Author]
   name = "Bino Kochumol Varghese"
@@ -101,7 +95,6 @@ pagerSize = 6
 [[menu.main]]
     name = "Notes"
     url = "/notes/"
-    weight = 2
 
 [[menu.main]]
     name = "Tags"
@@ -118,6 +111,16 @@ pagerSize = 6
     name = "About"
     url = "/about/"
     weight = 5
+
+[[menu.main]]
+    name = "Gist"
+    url = "{{< gist username gistID >}}"
+    weight = 6
+
+[[menu.main]]
+    name = "Gist Script"
+    url = "<script src=\"https://gist.github.com/username/gistID.js\"></script>"
+    weight = 7
 
 
 
